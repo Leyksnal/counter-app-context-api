@@ -31,13 +31,14 @@ export default function CounterControlls() {
 }
 
 const Holder = styled.div`
-    width: 20%;
+    width: 25%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #0E1116;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     height: 150px;
+    border-radius: 20px;
 
     button{
         width: 50px;
