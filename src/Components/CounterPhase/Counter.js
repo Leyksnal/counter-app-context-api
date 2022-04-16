@@ -1,13 +1,15 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import styled from 'styled-components'
 import CounterControlls from '../CounterControlls/CounterControlls';
+import { CountState } from '../CounterState/CounterState';
 
 export default function Counter() {
+    const {num} = useContext(CountState)
   return (
     <>
         <Container>
             <Wrapper>
-                <h2>2</h2>
+                <h2>{num}</h2>
             </Wrapper>
             <CounterControlls/>
         </Container>
