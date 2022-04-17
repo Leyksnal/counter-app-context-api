@@ -5,7 +5,7 @@ export const CountState = createContext()
 
 export const GlobalState = ({children})=>{
 
-    const [num, setnum] = useState(2)
+    const [num, setnum] = useState(0)
 
     const addCount =()=>{
         setnum(num + 1)
