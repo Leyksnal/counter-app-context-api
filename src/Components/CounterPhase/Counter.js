@@ -30,7 +30,7 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     border: solid 3px #3069AF;
-    width: 150px;
+    width: min-content;
     height: 70px;
     margin-bottom: 30px;
     border-radius: 10px;
